@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.header {
+	height:100vh;
+}
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height:100%;
+	width: auto;
+	height: auto;
+	z-index:-1;
+}
+@media (min-aspect-ratio:16/9){
+	.video-background{
+		width: 100%;
+		height:auto;
+	}
+}
+@media (max-aspect-ratio:16/9){
+	.video-background{
+		width: auto;
+		height:100%;
+	}
+}
+
+.logo {
+	margin: 45px;
+	height:50px;
+	margin-left: 47px;
+	margin-top: 44px;
+}
+
+
+.welcome {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	top: 50px;
+}
+.welcome h1 {
+	font-size:93px;
+	font-weight:100;
+	letter-spacing:5px;
+
+	margin-bottom:30px;
+}
+.intro {
+	font-size: 20px;
+}
+.btn {
+	font-size: 20px;
+	color: #fff;
+	margin:5px;
+	padding: 7px 22px;
+	text-decoration: none;
+	border:1.5px solid maroon;
+	border-radius: 25px;
+	font-family: arial rounded mt bold;
+}
+.follow {
+	background: maroon;
+}
+.follow:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.start:hover {
+	background: maroon;
+	transition:.7s;
+}
+.footer{
+	margin: auto;
+	width: 50%;
+	color: white;
+	text-align: center;
+	font-family: arial rounded mt bold;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
